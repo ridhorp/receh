@@ -21,6 +21,26 @@
   align-items: center;
 }
 
+.button {
+  background-color: #4649FF;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #1D1CE5; /* Green */
+  color: white;
+}
+
 .footer a {
   display: flex;
   justify-content: center;
